@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.desenho-da-calc{
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 350px;
+    font-weight: bold;
+}
+.resultado-da-calc{
+    width: 100%;
+    height: 350px;
+    background-color: cornflowerblue;
+    font-weight: bold;
+}
+.bg-footer{
+    background-color: cornflowerblue;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 145px;
+    margin-bottom: 0px;
+}
+.margin-top{
+    margin-top: 35px;
+}
+.margin-top2{
+    margin-top: 15px;
+}
+.margin-basic{
+    margin: 5px;
+    margin-top: 5px;
+}

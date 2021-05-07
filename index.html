@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo IMC</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    
+
+
+
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container text-center">
+            <a class="navbar-brand" href="#">Calcule o seu IMC</a>
+          </div>
+        </nav>
+    </div>
+
+    <section id="corpo">
+        <div class="container-fluid text-center">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-1">
+                        
+                    </div>
+                    <div class="col-lg-3">
+                        <h2>Calculadora</h2>
+                        <div class="desenho-da-calc">
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput" class="form-label margin-top">Digite abaixo sua altura</label>
+                                <input type="number" class="form-control" id="formGroupExampleInput" placeholder="Examplo: 1,82">
+                              </div>
+                              <div class="mb-3">
+                                <label for="formGroupExampleInput2" class="form-label">Digite abaixo o seu peso</label>
+                                <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="Exemplo: 88">
+                              </div>
+
+                              <button onclick="calcularIMC()" type="button" class="btn btn-success margin-top">Calcular</button>
+                              
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <h2>Resultado</h2>
+                        <div class="resultado-da-calc" id="resultadoIMC">
+                            <div id="resultadoIMC"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h2>Tabela para consulta</h2>
+                        <div>
+                            <img src="imagens/tabela imc.bmp" width="100%">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-1">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid bg-footer text-center">
+        <p>Desenvolvido por Anthony Farias</p>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
